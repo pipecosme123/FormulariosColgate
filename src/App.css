@@ -1,38 +1,166 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: "ColgateReady-Regular";
+  src: url('./font/ColgateReady-Regular.ttf');
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: "ColgateReady-Light";
+  src: url('./font/ColgateReady-Light.ttf');
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+  font-family: "ColgateReady-Bold";
+  src: url('./font/ColgateReady-Bold.ttf');
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+:root {
+  --bs-font-sans-serif: "ColgateReady-Light", "ColgateReady-Bold" !important
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  /* font-family:  !important; */
+}
+
+.container{
+  background: url("./img/Backgroundb.png");
+  /* background: url("./img/Fondo_Congreso.jpg"); Cali */
+  background-size: auto 150%; /* // Cali */
+  background-repeat: no-repeat, repeat;
+  background-color: #ffffff;
+}
+
+.Forms {
+  background: transparent;
+  padding-bottom: 4em;
+}
+
+.img-holder {
+  margin: 2em 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.img-holder img {
+  max-height: 400px;
+  width: auto;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.Overlay {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, .5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.form-control {
+  border-radius: 1em 0 1em 1em !important;
+}
+
+.pendon{
+  width: 90%;
+  /* max-height: 50px; */
+  margin: 0% auto 1em;
+  padding: 3em 0 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+.pendon h1{
+  font-weight: 900;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.pendon p{
+  font-weight: 900;
+  font-size: 0.9em;
+  color: #342e7b;
 }
+
+.pendon img.titulo{
+  margin: 2em 0;
+  width: 100%;
+}
+
+.pendon img.regimen{
+  margin: 2em 0;
+  width: 90%;
+}
+
+/* .btn-primary {
+  color: #fff;
+  background-color: #00a7ed !important;
+  border-color: #00a7ed !important;
+} */
+
+.habeas{
+  margin-top: 1em !important;
+  width: 100%;
+}
+
+.habeas .habeasData{
+  text-align: justify;
+  font-size: 0.8em
+}
+
+h4.hastag{
+  font-family: "ColgateReady-Bold";
+  font-size: 1.5em;
+  text-align: center;
+  font-weight: 900;
+  color: #d2010d;
+}
+
+.noAutorizar{
+  background: #b1b1b1 !important;
+  border: 1px solid #b1b1b1 !important;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+input[type=number] { -moz-appearance:textfield; }
+
+/* ECUADOR */
+
+/* .form-check-input:checked {
+  background-color: #d2010d !important;
+  border-color: #d2010d !important;
+}
+
+.form-check-input:focus, .btn-primary:focus {
+  border-color: #d2010d !important;
+  outline: 0;
+  box-shadow: 0 0 0 .25rem rgba(253, 13, 13, 0.25) !important;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #d2010d !important;
+  border-color: #d2010d !important;
+}
+
+.logo{
+  width: 40%;
+  margin: 1em 0;
+} */
