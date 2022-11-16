@@ -25,8 +25,9 @@ html {
 }
 
 .container{
-  background: url("./img/Backgroundb.png");
-  /* background: url("./img/Fondo_Congreso.jpg"); Cali */
+  background: url("./img/Background2.png");
+  /* background: url("./img/Backgroundb.png"); */
+  /* background: url("./img/Fondo_Congreso.jpg"); Cali Background2 */
   background-size: auto 150%; /* // Cali */
   background-repeat: no-repeat, repeat;
   background-color: #ffffff;

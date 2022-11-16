@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { Alert, Button, Col, Form, Row, Spinner } from 'react-bootstrap';
 import { useForm } from '../useForm';
 // import Regimen from '../img/Regimen.png';
-import Regimen2 from '../img/PerioGard_regimen.png';
+import Regimen2 from '../img/OrthoGard.png';
 // import logo from '../img/Logo-congreso.png';
 // import TituloPendon from '../img/TituloPendon.png';
 
@@ -15,7 +15,7 @@ const initialForm = {
    correo: '',
    celular: '',
    especialidad: '',
-   nameTabla: 'asistentes_c2_cali'
+   nameTabla: 'asistentes_san_andres'
 }
 
 const validationForm = (form) => {
@@ -114,10 +114,10 @@ const Forms = () => {
       <div className='Forms'>
          <div className="pendon">
             {/* <h3>Quincuagésimo</h3> */}
-            <h1>Congreso Regional de Periodoncia</h1>
-            <h3>- Cali -</h3>
+            <h1>Congreso Internacional de Ortodoncia</h1>
+            <h3>- San Andrés -</h3>
+            <h6>19 - 22 de Noviembre</h6>
             {/* <img src={logo} className="logo" alt="" />  */}
-            {/* <h5>22 - 24 de Septiembre</h5> */}
             {/*   <img src={TituloPendon} className="titulo" alt="" />
            <p>Virtualmente seguimos a su lado.</p>
             <p>Hoy estamos aquí para invitarles a que registren fotográficamente este momento y reciban su kit de productos Colgate en su consultorio.</p>  */}
